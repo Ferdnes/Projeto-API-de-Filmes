@@ -1,0 +1,1 @@
+Projeto desenvolvido a fim de consolidar o conhecimento da integração dE APIs, utilizando a REST API do OMDb. O design é de autoria própria, e o porjeto foi desenvolvido em Java Script, HTML e CSS. Status do Projeto: Finalizado.
