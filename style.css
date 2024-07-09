@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh; 
+    background: rgb(78,54,214);
+    background: radial-gradient(circle, rgba(78,54,214,0.7982842795321253) 0%, rgba(2,0,36,1) 91%); 
+}
+
+.container{
+        position: relative;
+        max-width: 600px;
+        background: #222222;
+        padding: 28px 32px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+        transition: 0.6s ease;
+}
+
+.hide{
+    display: none;
+}
+.search-box{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.9s ease;
+    
+}
+
+.search-box input{
+    background-color: transparent;
+    border: none;
+    border-radius: 18px;
+    color: #ffffff;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+}
+
+
+.search-box input::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.search-box button{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    color:  #fff;;
+    background: #6e30ff;
+    border-radius: 50%;
+    border: none;
+    font-size: 22px;
+    transition: 0.4s ease;
+}
+
+.search-box button:hover{
+    color: #222222;
+    background: #fff;
+}
+.search-box i{
+    color: #ffffff;
+    font-size: 24px;
+}
+
+
+.result-movie {
+    transition: 0.9s ease-in-out;
+    color: #ffffff;
+    padding-left: 20px;
+}
+.info {
+  position: relative;
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  align-items: center;
+  gap: 40px;
+}
+.poster {
+  width: 100%;
+  margin-top: 40px;
+  font-weight: 300px;
+}
+.details{
+    font-weight: 300px;
+    font-size: 24px;
+}
+
+.genre{
+    color: #6e30ff;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.not-found{
+    padding: 40px;
+    color: #fff
+}
